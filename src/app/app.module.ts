@@ -6,14 +6,18 @@ import { AppComponent } from './app.component';
 import { AlumnosComponent } from './alumnos/alumnos.component';
 
 @NgModule({
+  // Componentes
   declarations: [
     AppComponent,
     AlumnosComponent
   ],
+  // Modulos
   imports: [
     BrowserModule,
     AppRoutingModule
   ],
+
+  // Servicios y proveedores
   providers: [],
   bootstrap: [AppComponent]
 })
